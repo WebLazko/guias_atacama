@@ -1,0 +1,93 @@
+	label{
+		color: #254479;
+		margin: 0 0 0.5% 2%;
+	}
+	label[for=name], [for=desc2]{
+		color: #254479;
+		margin: 2% 0 0.5% 2%;
+	}
+	table{
+		margin-top:3%;
+	}
+	th{
+		color: #2C4C7C; 
+	}
+	tr{
+		color:black;
+	}
+
+
+
+	.table td {
+    border-top: none;
+	}
+
+	#agregar_prestador{
+		color: #2C4C7C; 
+		margin:2%; 
+		font-size: larger;
+	}
+	#name, #desc, #desc2, #numero, #comuna, #telefono, #correo, #logo, #galeria, #tipo_servicio, #precio{
+		width: auto;
+		margin: 0 0 0 2%;
+
+	}
+
+	#desc, #desc2{
+		width: auto;
+		margin: 0 0 0 2%;
+		height: 100px;
+
+	}
+	#h4_seccion{
+		color: #2C4C7C; 
+		margin:2%; 
+		border-bottom: 2px solid #D9DFE5;
+		font-size: larger;
+	}
+	#calle{
+		width: 50%;
+		margin: 0 0 0 2%;
+
+	}
+	#numero_comuna{
+		display: inline-block;
+	}
+	#id_correo, #id_galeria{
+		margin-top: 2%;
+	}
+	#logo, #galeria, #tipo_servicio{
+		margin-left: 2%;
+		color: black;
+	}
+	#logo{
+		font-size: initial;
+	}
+
+	#btn_agregar{
+		margin: 5% 0 5% 2%;
+    	background-color: orange;
+    	color: white;
+    	font-size: larger;
+	}
+	#file-7, #file-8, #file-9{
+		display: none;
+	}
+	#input_imagen{
+		background: #eef3f4;
+		border: none;
+		color: black;"
+	}
+	#add, #add2{
+		background-color: #F4A81F;
+		color: white;
+	}
+	label[for=file-7], [for=file-8], [for=file-9]{
+		margin-left: -76%;
+	}
+
+	@media(max-width: 960px){
+		body{
+			width: fit-content;
+		}
+	]
